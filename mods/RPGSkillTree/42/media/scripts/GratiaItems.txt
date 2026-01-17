@@ -1,0 +1,312 @@
+module
+RPGSkillTree {
+	imports {
+		Base
+	}
+
+    item Necklace_of_Memories_Normal
+    {
+        DisplayCategory = Accessory,
+        ItemType = base:clothing,
+        Weight = 0.1,
+        Icon = Necklace_Crucifix,
+        BodyLocation = base:necklace,
+        ClothingItem = Necklace_Crucifix,
+        Cosmetic = true,
+        WorldStaticModel = Necklace_Crucifix_Ground,
+		Tooltip = Tooltip_RPGSkillTree_Necklace_of_Memories_Normal,
+        Tags = base:hasmetal,
+    }
+
+    item Necklace_of_Memories_Rare
+    {
+        DisplayCategory = Accessory,
+        ItemType = base:clothing,
+        Weight = 0.1,
+        Icon = Necklace_SilverDiamond,
+        BodyLocation = base:necklace,
+        ClothingItem = Necklace_SilverDiamond,
+        Cosmetic = true,
+        WorldStaticModel = Necklace_SilverDiamond_Ground,
+		Tooltip = Tooltip_RPGSkillTree_Necklace_of_Memories_Rare,
+        Tags = base:hasmetal;base:tinysilverscrap;base:diamondjewellery,
+    }
+
+    item Necklace_of_Memories_Legendary
+    {
+        DisplayCategory = Accessory,
+        ItemType = base:clothing,
+        Weight = 0.1,
+        Icon = Necklace_GoldRuby,
+        BodyLocation = base:necklace,
+        ClothingItem = Necklace_GoldRuby,
+        Cosmetic = true,
+        WorldStaticModel = Necklace_GoldRuby_Ground,
+		Tooltip = Tooltip_RPGSkillTree_Necklace_of_Memories_Legendary,
+        Tags = base:hasmetal;base:tinygoldscrap;base:rubyjewellery,
+    }
+	
+	item Necklace_of_Strength_Normal
+    {
+        DisplayCategory = Accessory,
+        ItemType = base:clothing,
+        Weight = 0.1,
+        Icon = NecklaceLong_Amber,
+        BodyLocation = base:necklace_long,
+        ClothingItem = NecklaceLong_Amber,
+        Cosmetic = true,
+        WorldStaticModel = NecklaceLong_Amber_Ground,
+		Tooltip = Tooltip_RPGSkillTree_Necklace_of_Strength_Normal,
+	}
+	
+	item Necklace_of_Strength_Rare
+    {
+        DisplayCategory = Accessory,
+        ItemType = base:clothing,
+        Weight = 0.1,
+        Icon = NecklaceLong_SilverDiamond,
+        BodyLocation = base:necklace_long,
+        ClothingItem = NecklaceLong_SilverDiamond,
+        Cosmetic = true,
+        WorldStaticModel = NecklaceLongSilverDiamond_Ground,
+		Tooltip = Tooltip_RPGSkillTree_Necklace_of_Strength_Rare,
+        Tags = base:hasmetal;base:tinysilverscrap;base:diamondscrap,
+    }
+	
+	item Necklace_of_Strength_Legendary
+    {
+        DisplayCategory = Accessory,
+        ItemType = base:clothing,
+        Weight = 0.1,
+        Icon = NecklaceLong_GoldDiamond,
+        BodyLocation = base:necklace_long,
+        ClothingItem = NecklaceLong_GoldDiamond,
+        Cosmetic = true,
+        WorldStaticModel = NecklaceLong_GoldDiamond_Ground,
+		Tooltip = Tooltip_RPGSkillTree_Necklace_of_Strength_Legendary,
+        Tags = base:hasmetal;base:tinygoldscrap;base:diamondjewellery,
+    }
+	
+	item Forest_Earrings_Rare
+    {
+        DisplayCategory = Accessory,
+        ItemType = base:clothing,
+        Weight = 0.1,
+        Icon = Earring_LoopLrg_Silver,
+        BodyLocation = base:ears,
+        ClothingItem = Earring_LoopLrg_Silver_Both,
+        Cosmetic = true,
+        WorldStaticModel = Earring_LoopLrgSilver_Ground,
+		Tooltip = Tooltip_RPGSkillTree_Forest_Earrings_Rare,
+        Tags = base:hasmetal;base:tinysilverscrap,
+    }
+	
+	item Forest_Earrings_Legendary
+    {
+        DisplayCategory = Accessory,
+        ItemType = base:clothing,
+        Weight = 0.1,
+        Icon = Earring_LoopLrg_Gold,
+        BodyLocation = base:ears,
+        ClothingItem = Earring_LoopLrg_Gold_Both,
+        Cosmetic = true,
+        WorldStaticModel = Earring_LoopLrg_Ground,
+		Tooltip = Tooltip_RPGSkillTree_Forest_Earrings_Legendary,
+        Tags = base:hasmetal;base:tinygoldscrap,
+    }
+
+    item Dew_Beaded_Ring_Rare
+    {
+        DisplayCategory = Accessory,
+        ItemType = base:clothing,
+        Weight = 0.1,
+        Icon = NoseRing_Silver,
+        BodyLocation = base:bellybutton,
+        ClothingItem = NoseRing_Silver,
+        Cosmetic = true,
+        WorldStaticModel = NoseringSilver_Ground,
+		Tooltip = Tooltip_RPGSkillTree_Dew_Beaded_Ring_Rare,
+        Tags = base:hasmetal;base:tinysilverscrap,
+    }
+	
+    item Dew_Beaded_Ring_Legendary
+    {
+        DisplayCategory = Accessory,
+        ItemType = base:clothing,
+        Weight = 0.1,
+        Icon = NoseRing_Gold,
+        BodyLocation = base:bellybutton,
+        ClothingItem = NoseRing_Gold,
+        Cosmetic = true,
+        WorldStaticModel = Nosering_Ground,
+		Tooltip = Tooltip_RPGSkillTree_Dew_Beaded_Ring_Legendary,
+        Tags = base:hasmetal;base:tinygoldscrap;base:rubyjewellery,
+    }
+	
+    item Bag_HydrationBackpack_Normal
+    {
+        DisplayCategory = Bag,
+        ItemType = base:container,
+        Weight = 2.0,
+        IconsForTexture = Hydropack_Black;Hydropack_Blue;Hydropack_Neon,
+        AttachmentReplacement = Bag,
+        BloodLocation = Bag,
+        CanBeEquipped = base:back,
+        Capacity = 28,
+        CloseSound = CloseHydrationPack,
+        ClothingItem = Bag_HydrationBackpack,
+        EquipSound = EquipBackpackLarge,
+        OpenSound = OpenHydrationPack,
+        PutInSound = StoreItemHydrationPack,
+        ReplaceInPrimaryHand = Bag_HydrationBackpack_RHand holdingbagright,
+        ReplaceInSecondHand = Bag_HydrationBackpack_LHand holdingbagleft,
+        RunSpeedModifier = 0.97,
+        SoundParameter = EquippedBaggageContainer SchoolBag,
+        WeightReduction = 85,
+        WorldStaticModel = HydrationBackpack_Ground,
+        Tags = base:ignorezombiedensity,
+        component FluidContainer
+        {
+            ContainerName = HydrationBackpack,
+            Capacity = 1.0,
+            InitialPercentMin = 0.0,
+            InitialPercentMax = 1.0,
+            Fluids
+            {
+                fluid = Water:1.0,
+            }
+        }
+    }
+	
+    item Bag_HydrationBackpack_Rare
+    {
+        DisplayCategory = Bag,
+        ItemType = base:container,
+        Weight = 1.8,
+        IconsForTexture = Hydropack_Black;Hydropack_Blue;Hydropack_Neon,
+        AttachmentReplacement = Bag,
+        BloodLocation = Bag,
+        CanBeEquipped = base:back,
+        Capacity = 30,
+        CloseSound = CloseHydrationPack,
+        ClothingItem = Bag_HydrationBackpack,
+        EquipSound = EquipBackpackLarge,
+        OpenSound = OpenHydrationPack,
+        PutInSound = StoreItemHydrationPack,
+        ReplaceInPrimaryHand = Bag_HydrationBackpack_RHand holdingbagright,
+        ReplaceInSecondHand = Bag_HydrationBackpack_LHand holdingbagleft,
+        RunSpeedModifier = 0.98,
+        SoundParameter = EquippedBaggageContainer SchoolBag,
+        WeightReduction = 88,
+        WorldStaticModel = HydrationBackpack_Ground,
+        Tags = base:ignorezombiedensity,
+        component FluidContainer
+        {
+            ContainerName = HydrationBackpack,
+            Capacity = 2.0,
+            InitialPercentMin = 0.0,
+            InitialPercentMax = 1.0,
+            Fluids
+            {
+                fluid = Water:1.0,
+            }
+        }
+    }
+
+    item Bag_HydrationBackpack_Legendary
+    {
+        DisplayCategory = Bag,
+        ItemType = base:container,
+        Weight = 1.0,
+        Icon = Hydropack_Camo,
+        AttachmentReplacement = Bag,
+        BloodLocation = Bag,
+        CanBeEquipped = base:back,
+        Capacity = 35,
+        CloseSound = CloseHydrationPack,
+        ClothingItem = Bag_HydrationBackpack_Camo,
+        EquipSound = EquipBackpackLarge,
+        OpenSound = OpenHydrationPack,
+        PutInSound = StoreItemHydrationPack,
+        ReplaceInPrimaryHand = Bag_HydrationBackpack_Camo_RHand holdingbagright,
+        ReplaceInSecondHand = Bag_HydrationBackpack_Camo_LHand holdingbagleft,
+        SoundParameter = EquippedBaggageContainer SchoolBag,
+        WeightReduction = 95,
+        WorldStaticModel = HydrationBackpack_Ground,
+        Tags = base:ignorezombiedensity,
+        component FluidContainer
+        {
+            ContainerName = HydrationBackpack,
+            Capacity = 3.0,
+            InitialPercentMin = 0.0,
+            InitialPercentMax = 1.0,
+            Fluids
+            {
+                fluid = Water:1.0,
+            }
+		}
+	}
+	
+    item Bag_ALICE_BeltSus_Normal
+    {
+        DisplayCategory = Bag,
+        ItemType = base:container,
+        Icon = Webbing,
+        BodyLocation = base:webbing,
+        CanBeEquipped = base:webbing,
+        Capacity = 7,
+        CloseSound = CloseCargoVest,
+        EquipSound = EquipAliceBelt,
+        OpenSound = OpenCargoVest,
+        PutInSound = StoreItemCargoVest,
+        RunSpeedModifier = 0.97,
+        WeightReduction = 80,
+        ClothingItem = Bag_ALICE_BeltSus_Green,
+        WorldStaticModel = ALICE_BeltSus_Ground,
+        AttachmentsProvided = SmallBeltLeft;SmallBeltRight;WebbingRight;WebbingLeft,
+        Tags = base:reloadfastmagazines;base:ignorezombiedensity;base:hasmetal;base:isfirefuel,
+        MaxItemSize = 1.5,
+        CombatSpeedModifier = 0.98,
+    }
+	
+	    item Bag_ALICE_BeltSus_Rare
+    {
+        DisplayCategory = Bag,
+        ItemType = base:container,
+        IconsForTexture = WebbingCamo;Webbing,
+        BodyLocation = base:webbing,
+        CanBeEquipped = base:webbing,
+        Capacity = 8,
+        CloseSound = CloseCargoVest,
+        EquipSound = EquipAliceBelt,
+        OpenSound = OpenCargoVest,
+        PutInSound = StoreItemCargoVest,
+        RunSpeedModifier = 0.98,
+        WeightReduction = 85,
+        ClothingItem = Bag_ALICE_BeltSus,
+        WorldStaticModel = ALICE_BeltSus_Ground,
+        AttachmentsProvided = SmallBeltLeft;SmallBeltRight;WebbingRight;WebbingLeft,
+        Tags = base:reloadfastmagazines;base:ignorezombiedensity;base:hasmetal;base:isfirefuel,
+        MaxItemSize = 2.0,
+        CombatSpeedModifier = 0.99,
+    }
+	
+    item Bag_ALICE_BeltSus_Legendary
+    {
+        DisplayCategory = Bag,
+        ItemType = base:container,
+        Icon = WebbingCamo,
+        BodyLocation = base:webbing,
+        CanBeEquipped = base:webbing,
+        Capacity = 10,
+        CloseSound = CloseCargoVest,
+        EquipSound = EquipAliceBelt,
+        OpenSound = OpenCargoVest,
+        PutInSound = StoreItemCargoVest,
+        WeightReduction = 95,
+        ClothingItem = Bag_ALICE_BeltSus_Camo,
+        WorldStaticModel = ALICE_BeltSus_Ground,
+        AttachmentsProvided = SmallBeltLeft;SmallBeltRight;WebbingRight;WebbingLeft,
+        Tags = base:reloadfastmagazines;base:ignorezombiedensity;base:hasmetal;base:isfirefuel,
+    }
+}

@@ -1,0 +1,43 @@
+module Base
+{
+    item Randombox_Normal
+    {
+        DisplayCategory   = Ammo,
+        ItemType          = base:normal,
+        Weight            = 0.0,
+        Icon              = Parcel_Medium_Military,
+        WorldStaticModel  = Parcel_Military_Medium,
+        Tags              = base:hasmetal;ignorezombiedensity,
+    }
+
+    item Randombox_Rare
+    {
+        DisplayCategory   = Material,
+        ItemType          = base:normal,
+        Weight            = 0.0,
+        Icon              = Parcel_Large_Hardware,
+        WorldStaticModel  = Parcel_Hardware_Large,
+        Tags              = base:hasmetal;ignorezombiedensity,
+    }
+
+    item Randombox_Legendary
+    {
+        DisplayCategory   = Ammo,
+        ItemType          = base:normal,
+        Weight            = 0.0,
+        Icon              = Parcel_Medium_Ammo,
+        WorldStaticModel  = Parcel_Ammo_Medium,
+        Tags              = base:hasmetal;ignorezombiedensity,
+    }
+
+    item Randombox_Opened
+    {
+        DisplayCategory   = Ammo,
+        ItemType          = base:normal,
+        Weight            = 0.0,
+        Icon              = Parcel_Medium_Military,
+        WorldStaticModel  = Parcel_Military_Medium,
+        Tags              = base:hasmetal;ignorezombiedensity,
+    }
+}
+
