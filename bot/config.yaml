@@ -1,0 +1,21 @@
+bot:
+  token: "PASTE_TELEGRAM_BOT_TOKEN"
+
+# Telegram user IDs or usernames (без @), которым разрешен доступ.
+allowed_users:
+  - "123456789"
+  - "yourusername"
+
+servers:
+  - id: "pzServer"
+    name: "pzServer"
+    host: "127.0.0.1"
+    port: 27015
+    password: "RCON_PASSWORD"
+
+# Команды RCON. Можно менять под ваш сервер.
+# Для выдачи/снятия администратора используется плейсхолдер {username}.
+rcon_commands:
+  restart: "quit"
+  grant_admin: "grantadmin {username}"
+  revoke_admin: "removeadmin {username}"
